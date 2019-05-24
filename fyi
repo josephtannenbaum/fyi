@@ -7,7 +7,7 @@ import argparse
 from subprocess import call
 from fuzzywuzzy import fuzz
 
-FYI_PATH = '~/.fyi'
+FYI_PATH = os.path.expanduser('~/.fyi')
 
 def pretty_list(mylist):
   out = []
@@ -44,7 +44,7 @@ def open_vim_with_random_string():
 
 def find_fyi(query_string):
   results = []
-  directory = os.path.expanduser('~') + '/.fyi'
+  directory = FYI_PATH
   for filename in os.listdir(directory):
     if filename.endswith('.fyi'):
         file_path = os.path.join(directory, filename)
