@@ -1,6 +1,10 @@
 # fyi
 
-inspired by ["Etsy’s experiment with immutable documentation"](https://codeascraft.com/2018/10/10/etsys-experiment-with-immutable-documentation/)
+Inspired by ["Etsy’s experiment with immutable documentation"](https://codeascraft.com/2018/10/10/etsys-experiment-with-immutable-documentation/)
+
+Requires [fuzzywuzzy](https://github.com/seatgeek/fuzzywuzzy#fuzzywuzzy): `pip3 install fuzzywuzzy[speedup]`
+
+## Usage
 
 `fyi` opens vim with a blank FYI file
 
