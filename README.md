@@ -2,7 +2,7 @@
 
 Inspired by ["Etsy’s experiment with immutable documentation"](https://codeascraft.com/2018/10/10/etsys-experiment-with-immutable-documentation/)
 
-Requires [uv](https://github.com/astral-sh/uv): (Install here)[https://github.com/astral-sh/uv?tab=readme-ov-file#installation]
+Requires [uv package manager](https://github.com/astral-sh/uv?tab=readme-ov-file#installation)
 
 ## Usage
 
@@ -12,4 +12,4 @@ Requires [uv](https://github.com/astral-sh/uv): (Install here)[https://github.co
 
 `fyi "search terms" 1` displays the 1st result of the search
 
-<img width="585" alt="Screen Shot 2019-05-24 at 12 22 49 PM" src="https://user-images.githubusercontent.com/28641/58342675-0a18e380-7e1f-11e9-9cb5-80529b95c7e3.png">
+https://github.com/user-attachments/assets/07d11841-5664-4146-8aa2-85b52690227a
